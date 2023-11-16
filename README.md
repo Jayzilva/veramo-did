@@ -51,13 +51,13 @@
 ```
 {
   credentialSubject: {
-    'Sample Name': 'Alice',
+    name: 'Alice',
     id: 'did:ethr:0x0328939c3dc5af29fe52fea2ab97019d256a6ffd17e7bbc09405e15466f253c910'
   },
   issuer: {
     id: 'did:ethr:0x0328939c3dc5af29fe52fea2ab97019d256a6ffd17e7bbc09405e15466f253c910'
   },
-  type: [ 'VerifiableCredential', 'Verifible' ],
+  type: [ 'VerifiableCredential', 'Profile' ],
   credentialStatus: {
     type: 'EthrStatusRegistry2019',
     id: 'goerli:0x97fd27892cdcD035dAe1fe71235c636044B59348'
@@ -66,11 +66,11 @@
     'https://www.w3.org/2018/credentials/v1',
     'https://veramo.io/contexts/profile/v1'
   ],
-  issuanceDate: '2023-11-16T15:38:26.000Z',
   proof: {
     type: 'JwtProof2020',
-    jwt: 'eyJhbGciOiJFUzI1NksiLCJ0eXAiOiJKV1QifQ.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdmVyYW1vLmlvL2NvbnRleHRzL3Byb2ZpbGUvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlZlcmlmaWJsZSJdLCJjcmVkZW50aWFsU3ViamVjdCI6eyJTYW1wbGUgTmFtZSI6IkFsaWNlIn0sImNyZWRlbnRpYWxTdGF0dXMiOnsidHlwZSI6IkV0aHJTdGF0dXNSZWdpc3RyeTIwMTkiLCJpZCI6ImdvZXJsaToweDk3ZmQyNzg5MmNkY0QwMzVkQWUxZmU3MTIzNWM2MzYwNDRCNTkzNDgifX0sInN1YiI6ImRpZDpldGhyOjB4MDMyODkzOWMzZGM1YWYyOWZlNTJmZWEyYWI5NzAxOWQyNTZhNmZmZDE3ZTdiYmMwOTQwNWUxNTQ2NmYyNTNjOTEwIiwibmJmIjoxNzAwMTQ5MTA2LCJpc3MiOiJkaWQ6ZXRocjoweDAzMjg5MzljM2RjNWFmMjlmZTUyZmVhMmFiOTcwMTlkMjU2YTZmZmQxN2U3YmJjMDk0MDVlMTU0NjZmMjUzYzkxMCJ9.lIO12bObmQy06nc0MPv3AQs96uScJEgBxpSYS1_5wog-WH4D_LeXHtuf-hUNXUe096FXArNmPYdIhgBHVozQwQ'
+    jwt: 'eyJhbGciOiJFUzI1NksiLCJ0eXAiOiJKV1QifQ.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vdmVyYW1vLmlvL2NvbnRleHRzL3Byb2ZpbGUvdjEiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIlByb2ZpbGUiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkFsaWNlIn0sImNyZWRlbnRpYWxTdGF0dXMiOnsidHlwZSI6IkV0aHJTdGF0dXNSZWdpc3RyeTIwMTkiLCJpZCI6ImdvZXJsaToweDk3ZmQyNzg5MmNkY0QwMzVkQWUxZmU3MTIzNWM2MzYwNDRCNTkzNDgifX0sInN1YiI6ImRpZDpldGhyOjB4MDMyODkzOWMzZGM1YWYyOWZlNTJmZWEyYWI5NzAxOWQyNTZhNmZmZDE3ZTdiYmMwOTQwNWUxNTQ2NmYyNTNjOTEwIiwibmJmIjoxNzAwMTUxNzA0LCJpc3MiOiJkaWQ6ZXRocjoweDAzMjg5MzljM2RjNWFmMjlmZTUyZmVhMmFiOTcwMTlkMjU2YTZmZmQxN2U3YmJjMDk0MDVlMTU0NjZmMjUzYzkxMCJ9.HGfQTMVvKNxW9ABv64pUu56-njIGQV52NEl0HthUl8N31VFf_D4MTK_RnrXrfGH9GWyYyRcs4goYKnE5J6bEkw'
   }
+}
 ```
 
 - lds
